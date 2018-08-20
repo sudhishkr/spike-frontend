@@ -19,6 +19,7 @@ class Home extends React.Component {
   }
 
   render() {
+    console.log("article:" + agent.Articles.all.length);
     return (
       <div className="home-page">
         <div className="container page">

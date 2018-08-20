@@ -5,7 +5,7 @@ import _superagent from "superagent";
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = "https://spike-crowdsource.herokuapp.com/crowdsource/";
+const API_ROOT = "https://spike-crowdsource.herokuapp.com/crowdsource";
 
 const responseBody = res => res.body;
 

@@ -1,13 +1,16 @@
 import React from "react";
 
 const Feed = props => {
-  const feed = props;
-  console.log("props");
+  const feed = props.article;
   return (
     <div className="article-preview">
       <div className="article-meta">
+        {/* <a>
+          <img src={article.author.image} />
+        </a> */}
+
         <div className="info">
-          <a className="author">{feed.restuarant}</a>
+          <a className="author">{feed.author.username}</a>
           <span className="date">
             {new Date(feed.createdAt).toDateString()}
           </span>
