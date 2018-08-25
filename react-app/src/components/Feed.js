@@ -1,25 +1,16 @@
 import React from "react";
 
 const Feed = props => {
-  const feed = props.article;
+  const story = props.story;
   return (
     <div className="article-preview">
       <div className="article-meta">
-        {/* <a>
-          <img src={article.author.image} />
-        </a> */}
-
         <div className="info">
-          <a className="author">{feed.author.username}</a>
-          <span className="date">
-            {new Date(feed.createdAt).toDateString()}
-          </span>
-        </div>
-
-        <div className="pull-xs-right">
-          <span className="btn btn-sm btn-outline-primary">
-            <i className="ion-heart" /> {feed.content}
-          </span>
+          <tr />
+          <h4>{story.restuarant}</h4>
+          <tr />
+          <p>{story.incident_report}</p>
+          <br />
         </div>
       </div>
     </div>

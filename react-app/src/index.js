@@ -7,12 +7,12 @@ import { promiseMiddleware } from "./middleware";
 
 const defaultState = {
   appName: "dontgetpoisoned",
-  articles: null
+  stories: null
 };
 const reducer = function(state = defaultState, action) {
   switch (action.type) {
     case "HOME_PAGE_LOADED":
-      return { ...state, articles: action.payload.articles };
+      return { ...state, stories: action.payload.stories };
   }
   return state;
 };

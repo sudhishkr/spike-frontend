@@ -15,11 +15,10 @@ const mapDispatchToProps = dispatch => ({
 
 class Home extends React.Component {
   componentWillMount() {
-    this.props.onLoad(agent.Articles.all());
+    this.props.onLoad(agent.Stories.all());
   }
 
   render() {
-    console.log("article:" + agent.Articles.all.length);
     return (
       <div className="home-page">
         <div className="container page">

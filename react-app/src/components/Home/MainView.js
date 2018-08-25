@@ -3,7 +3,7 @@ import React from "react";
 import { connect } from "react-redux";
 
 const mapStateToProps = state => ({
-  articles: state.articles
+  stories: state.stories
 });
 
 const MainView = props => {
@@ -19,7 +19,7 @@ const MainView = props => {
         </ul>
       </div>
 
-      <FeedPage articles={props.articles} />
+      <FeedPage stories={props.stories} />
     </div>
   );
 };

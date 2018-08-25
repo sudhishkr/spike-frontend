@@ -13,10 +13,10 @@ const requests = {
   get: url => superagent.get(`${API_ROOT}${url}`).then(responseBody)
 };
 
-const Articles = {
+const Stories = {
   all: page => requests.get(`/review`)
 };
 
 export default {
-  Articles
+  Stories
 };
