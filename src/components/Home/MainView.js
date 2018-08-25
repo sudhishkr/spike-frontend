@@ -56,6 +56,7 @@ const MainView = props => {
               />
             </div>
           </div>
+
           <div class="col-md-6">
             <div class="form-group">
               <label for="description"> What went bad</label>
