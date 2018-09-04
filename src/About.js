@@ -73,9 +73,9 @@ class About extends Component {
                                 <li class="timeline-inverted">
                                     <div class="timeline-image">
                                         <h4>
-                                            Be Part~{"\n"}
-                                            Of Our~{"\n"}
-                                            Story!
+                                            Be Part
+                                            <br />Of Our
+                                            <br />Story!
                                         </h4>
                                     </div>
                                 </li>
