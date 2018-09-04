@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Header from './Header';
 import Team from './Team';
 import Contact from './Contact';
+import Footer from './Footer';
 
 class App extends Component {
     render() {
@@ -13,6 +14,7 @@ class App extends Component {
                 <Header />
                 <Team />
                 <Contact />
+                <Footer />
             </div>
         );
     }
