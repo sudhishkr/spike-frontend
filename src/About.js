@@ -16,7 +16,7 @@ class About extends Component {
                             <ul class="timeline">
                                 <li>
                                     <div class="timeline-image">
-                                        <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                                        <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt=""></img>
                                     </div>
                                     <div class="timeline-panel">
                                         <div class="timeline-heading">
@@ -30,7 +30,7 @@ class About extends Component {
                                 </li>
                                 <li class="timeline-inverted">
                                     <div class="timeline-image">
-                                        <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                                        <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt=""></img>
                                     </div>
                                     <div class="timeline-panel">
                                         <div class="timeline-heading">
@@ -44,7 +44,7 @@ class About extends Component {
                                 </li>
                                 <li>
                                     <div class="timeline-image">
-                                        <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                                        <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt=""></img>
                                     </div>
                                     <div class="timeline-panel">
                                         <div class="timeline-heading">
@@ -58,7 +58,7 @@ class About extends Component {
                                 </li>
                                 <li class="timeline-inverted">
                                     <div class="timeline-image">
-                                        <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                                        <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt=""></img>
                                     </div>
                                     <div class="timeline-panel">
                                         <div class="timeline-heading">
