@@ -7,13 +7,18 @@ class Footer extends Component {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
-                            <span class="copyright">Copyright &copy; Your Website 2018</span>
+                            <span class="copyright">Copyright &copy; FoodSpy 2018</span>
                         </div>
                         <div class="col-md-4">
                             <ul class="list-inline social-buttons">
                                 <li class="list-inline-item">
                                     <a href="#">
                                         <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
