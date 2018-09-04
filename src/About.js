@@ -24,7 +24,7 @@ class About extends Component {
                                             <h4 class="subheading">Inception</h4>
                                         </div>
                                         <div class="timeline-body">
-                                            <p class="text-muted" align="justify">
+                                            <p class="text-muted">
                                                 Founders fall sick after eating out at a restaurant.
                                                 They decide to build a website for people who love to eat out but don’t expect to be ill because of it.
                                                 FoodSpy is born!
