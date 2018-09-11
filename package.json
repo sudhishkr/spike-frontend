@@ -1,11 +1,25 @@
 {
-  "name": "FoodSpy",
+  "name": "react-redux-realworld-example-app",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "react-scripts": "0.6.1"
+  },
   "dependencies": {
-    "react": "^16.4.2",
+    "history": "^4.3.0",
+    "install": "^0.12.1",
+    "marked": "^0.3.6",
+    "mdbreact": "^4.7.0",
+    "react": "^16.2.0",
+    "react-cards": "^0.2.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5"
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "react-router-dom": "^4.3.1",
+    "react-sticky": "^6.0.3",
+    "redux": "^3.6.0",
+    "superagent": "^3.8.2",
+    "superagent-promise": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
